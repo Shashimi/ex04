@@ -69,14 +69,13 @@ def replace_head(input_list):
 
 def replace_third_and_last(input_list):
     """Replace the third and last elements of the input list with the value 37."""
-    #input_list[2] = 37
-    #input_list[-1] = 37
-    #return input_list
+    input_list[2] = 37
+    input_list[-1] = 37
+    return input_list
     
-    input_list_2 = input_list[0:2] + ['37'] + input_list[3:-1] + ['37']
-    input_list = input_list_2
-    return input_list_2
-    
+    # input_list_2 = input_list[0:2] + ['37'] + input_list[3:-1] + ['37']
+    # return input_list_2
+
 
 
 
